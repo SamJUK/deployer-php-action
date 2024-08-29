@@ -17,7 +17,7 @@ inputs:
         description: 'Skip install of deployer (if you are using a locally installed version)'
         required: false
 runs:
-    using: 'node12'
+    using: 'node20'
     main: 'dist/index.js'
 branding:
     icon: server
